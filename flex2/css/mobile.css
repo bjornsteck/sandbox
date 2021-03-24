@@ -1,0 +1,210 @@
+/* GENERAL */
+
+html {
+	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'SEGOI UE', 'Arial', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.75;
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 1.25em;
+	font-weight: 400;
+}
+
+h1,h2,p,a {
+	color: #95989a;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul>li {
+	list-style-type: none;
+}
+
+.bg {
+	background-color: #e5e5e5;
+}
+
+.bg-dk {
+	background-color: #909090;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.limited {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+	width: 100%;
+	padding: 2em 0;
+}
+
+header>a {
+	text-decoration: none;
+	padding: 1.5em;
+}
+
+/* NAV */
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navLogo, .menu {
+	padding: 1em;
+}
+
+.menu>p {
+	margin-right: 1em;
+}
+
+button#hamburgerBtn {
+	background: none;
+	border: none;
+	color: #909090;
+	font-size: 2.4rem;
+	cursor: pointer;
+	padding: 0 30px 0 2vw;
+}
+
+.menu>ul {
+	display: none;
+}
+
+.menu>a {
+	display: block;
+	color: #909090;
+	padding: .8rem 0;
+}
+
+.menu>ul>li>.active {
+	background-color: #808080;
+}
+
+.menu>ul>li>a:hover {
+	background-color: rgba(255,255,255,0.25);
+	color: #fff;
+}
+
+.menu>ul.open {
+	display: block;
+}
+
+/* MAIN */
+
+main {
+	margin: 2em 0;
+}
+
+section {
+	margin: 3.5em 0;
+}
+
+article {
+	margin: 2.5em 0;
+	padding: .5em
+}
+
+aside {
+	margin: .5em 0;
+	padding: .5em
+}
+
+.main {
+	padding: .5em;
+}
+
+.main>p {
+	margin: .5em auto;
+	padding: 1.5em;
+}
+
+.viewMenu {
+	width: 250px;
+	margin: 2em auto;
+	padding: 15px;
+}
+
+.viewMenu>a {
+	color: #fff;
+	padding: 5px;
+}
+
+.special {
+	margin: 0 5%;
+}
+
+.about>p {
+	padding: 0 1.5em
+}
+
+.viewMap {
+	text-decoration: solid underline rgba(10,10,10,.25) 2px;
+	
+}
+
+/* FOOTER */
+
+footer {
+	margin-top: 2.5em;
+	padding: 2.5em;
+}
+
+.secondaryNav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 2em;
+}
+
+.secondary.menu>li {
+	padding: .5em;
+}
+
+.footerLogo {
+	margin-bottom: 2em;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.social>li {
+	margin-bottom: 2em;
+	padding: 0 .5em;
+}
